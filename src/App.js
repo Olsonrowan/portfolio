@@ -9,8 +9,8 @@ import Home from './routes/home/home';
 import About from './routes/about/about';
 import Projects from './routes/projects/projects';
 import Contact from './routes/contact/contact';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
