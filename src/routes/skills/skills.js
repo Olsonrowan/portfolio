@@ -1,9 +1,10 @@
 import React from "react";
 
-function Contact() {
+function Skills() {
   return (
     <div className="homeContainer">
-      <h1 className="homeContent">Contact Me!</h1>
+      <h1 className="devName">Rowan Olson</h1>
+      <h1 className="homeContent">About me</h1>
       <p className="homeContent">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
         auctor justo, vel molestie sapien suscipit nec. Sed dictum, nulla vel
@@ -31,4 +32,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Skills;

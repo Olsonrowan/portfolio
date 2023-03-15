@@ -1,27 +1,28 @@
 import React from "react";
 import "../../styles/styles.css";
-import logo from "../../assets/logo.png";
 
-function Header() {
+function Header(props) {
+  const { scrollToTop, scrollToSkills, scrollToProjects, scrollToContact } =
+    props;
+
   return (
     <header>
-      <div className="logoContainer">
-        <img className="logo" alt="My Logo" src={logo}></img>
-      </div>
-      <ul className="links">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
-      </ul>
+      <nav>
+        <ul className="links">
+          <li>
+            <a onClick={scrollToTop}>Home</a>
+          </li>
+          <li>
+            <a onClick={scrollToSkills}>Skills</a>
+          </li>
+          <li>
+            <a onClick={scrollToProjects}>Projects</a>
+          </li>
+          <li>
+            <a onClick={scrollToContact}>Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

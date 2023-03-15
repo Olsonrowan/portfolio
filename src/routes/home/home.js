@@ -4,6 +4,7 @@ import "../../styles/styles.css";
 function Home() {
   return (
     <div className="homeContainer">
+      <h1 className="devName">Rowan Olson</h1>
       <h1 className="homeContent">About me</h1>
       <p className="homeContent">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
